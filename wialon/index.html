@@ -251,7 +251,8 @@ $(document).ready(function() {
 	wialon.core.Session.getInstance().initSession("https://hst-api.wialon.com"); // init session
     // For more info about how to generate token check
     // http://sdk.wialon.com/playground/demo/app_auth_token
-	wialon.core.Session.getInstance().loginToken("86e25af9df235dab494df94f6c23f6a43F789829790E91A5BE7AA1E087568ED838289375", "", // try to login
+	// ngs2 wialon.core.Session.getInstance().loginToken("86e25af9df235dab494df94f6c23f6a43F789829790E91A5BE7AA1E087568ED838289375", "", // try to login
+	wialon.core.Session.getInstance().loginToken("e3e5bea954fe2f33bbe76647284f6e1f7E971A006BD727F7958CAC6CFE60BCB976202247", "", // try to login
 	function(code) { // login callback
 		// if error code - print error message
 		if (code) {
